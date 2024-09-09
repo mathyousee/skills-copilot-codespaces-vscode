@@ -20,9 +20,6 @@ const commentsPath = path.join(__dirname, 'comments.json');
 // Load the comments.json file
 const comments = JSON.parse(fs.readFileSync(commentsPath, 'utf8'));
 
-// Load the comments.json file
-const comments = JSON.parse(fs.readFileSync(commentsPath, 'utf8'));
-
 // Parse the request body as JSON
 app.use(bodyParser.json());
 
